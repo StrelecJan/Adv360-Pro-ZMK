@@ -2,17 +2,17 @@ macro_c_with_caron: macro_c_with_caron{
 compatible = "zmk,behavior-macro";
 label = "macro_c_with_caron";
 #binding-cells = <0>;
-bindings = <&mt LEFT_ALT V>, <&kp C>;
+bindings = <&macro_tap M(LEFT_ALT, V), &kp C>;
 };
 macro_z_with_caron: macro_z_with_caron{
 compatible = "zmk,behavior-macro";
 label = "macro_z_with_caron";
 #binding-cells = <0>;
-bindings = <&mt LEFT_ALT V>, <&kp Z>;
+bindings = <&macro_tap M(LEFT_ALT, V), &kp Z>;
 };
 macro_s_with_caron: macro_s_with_caron{
 compatible = "zmk,behavior-macro";
 label = "macro_s_with_caron";
 #binding-cells = <0>;
-bindings = <&mt LEFT_ALT V>, <&kp S>;
+bindings = <&macro_tap M(LEFT_ALT, V), &kp S>;
 };
