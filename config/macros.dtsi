@@ -1,18 +1,18 @@
-macro_č: macro_č{
+macro_c_with_caron: macro_c_with_caron{
 compatible = "zmk,behavior-macro";
-label = "macro_č";
+label = "macro_c_with_caron";
 #binding-cells = <0>;
 bindings = <&kp LALT>, <&kp V>, <&kp C>;
 };
-macro_ž: macro_ž{
+macro_z_with_caron: macro_z_with_caron{
 compatible = "zmk,behavior-macro";
-label = "macro_ž";
+label = "macro_z_with_caron";
 #binding-cells = <0>;
 bindings = <&kp LALT>, <&kp V>, <&kp Z>;
 };
-macro_š: macro_š{
+macro_s_with_caron: macro_s_with_caron{
 compatible = "zmk,behavior-macro";
-label = "macro_š";
+label = "macro_s_with_caron";
 #binding-cells = <0>;
 bindings = <&kp LALT>, <&kp V>, <&kp S>;
 };
